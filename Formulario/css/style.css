@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: monospace;
+}
+
+body {
+  background-color: #dbdbc8;
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+
+form {
+  background-color: #fff;
+  width: 40%;
+  min-width: 350px;
+  margin: 150px auto;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px #000000bd;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #7f00ff;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+input,
+textarea {
+  min-width: 320px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+  margin-top: 20px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+textarea {
+  height: 200px;
+  padding-top: 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  height: 40px;
+  min-width: 320px;
+  border-radius: 5px;
+  background: #7f00ff;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.8s ease;
+}
+
+button:hover {
+  background-color: #480091d0;
+}
+
+button:active {
+  background-color: #5c3485d0;
+}
+
+/* ---------------------  tela obrigado ------------------------------ */
+
+.thanks-card {
+  background-color: #fff;
+  width: 40%;
+  min-width: 350px;
+  margin: 150px auto;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px #000000bd;
+  padding: 15px;
+}
+
+.thanks-card h1 {
+  font-size: 32px;
+}
+
+.thanks-card p {
+  text-align: center;
+  margin: 10px;
+  font-size: 14px;
+}
